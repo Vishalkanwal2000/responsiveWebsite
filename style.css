@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+}
+*{
+    scroll-behavior: smooth;
+}
+/*--------------navbar-----------------------*/
+nav{
+    background-color: white;
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.566);
+}
+.left{
+   
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+.left>a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: rgb(235, 39, 17);
+    font-size: 2.5vmax;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.mid{
+   
+    width: 60%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+.mid>a{
+
+text-decoration: none;
+color: black;
+width: 100%;
+font-size: 1.4vmax;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.mid>a:hover{
+    border-bottom: 2px solid salmon;
+    color: salmon;
+   
+
+}
+.right{
+    width: 20%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .right>img{
+        width: 2vmax;
+        cursor: pointer;
+    }
+    /*---------------Homepage----------------------*/
+    .home{
+        
+        display: flex;
+        height: 100vh;
+        background-image: radial-gradient(rgb(230, 221, 255),rgb(184, 184, 233));
+    }
+    .contanir{
+
+width: 100%;
+height: 100%;
+
+    }
+    #rightcontanir>img{
+
+      width: 100%;
+      height: 100vh;
+
+
+    }
+    #leftcontanir{
+       
+
+        display: flex;
+        flex-direction: column;
+        padding: 3vmax;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    #leftcontanir>h1{
+        
+        font-size: 4vmax;
+        font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    }
+    #leftcontanir>h2{
+        margin-top: -8%;
+       
+        font-size: 2vmax;
+        font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    }
+    #leftcontanir>p{
+        margin-left: 2%;
+        
+        font-size: 1.2vmax;
+        font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+
+    }
+    #leftcontanir>button{
+        margin-left: 2%;
+        cursor: pointer;
+        width: 11vmax;
+        padding: 0.6vmax;
+        border: none;
+        border-radius: 2vmax;
+        background-color: salmon;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    }
+    #leftcontanir>button:hover{
+        background-color: black;
+    }
+ 
+    /*--------------------------------------------------*/
+
+    #products{
+      
+        height: 100vh;
+
+    }
+    #products>h1{
+        border-bottom: 4px solid salmon;
+        text-align: center;
+        margin: 5vmax auto;
+        font-size: 2.5vmax;
+        width: 20vw;
+        padding: 1vmax;
+    }
+    
+    .productcontanir{
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        width: 80vw;
+        margin: auto;
+    }
+    /*-----------------product----------------------------------*/
+    .product {
+        
+        transition: all 0.5s;
+        cursor: pointer;
+        
+        display: flex;
+       margin: 0.5vmax;
+
+        flex-direction: column;
+        align-items: center;
+      
+
+    }
+    .product >img{
+        
+      width: 20vmax;
+    }
+    .product >h4{
+
+        margin: 2%;
+
+     }
+    .product >h5{
+
+            margin: 0%;
+    
+        }
+        .product:hover{
+
+            transform: translateY(-10px);
+        }
+
+  /*-------------------------------------*/
+  
+ 
+  
+  /*-------------footer------------------------*/
+  
+  footer{
+
+    width:94vw;
+    padding: 2vmax;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    margin-top: 54vmax;
+    display: flex;
+    justify-content: center;
+    
+}
+.leftfooter{
+    height: 15vh;
+    width: 20vmax;
+ 
+   
+}
+.leftfooter>h4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.leftfooter>p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.leftfooter>img{
+
+width: 7vmax;
+margin: 1vmax;
+cursor: pointer;
+
+
+}
+  .midfooter{
+    height: 15vmax;
+   
+   width: 60%;
+   text-align: center;
+}
+
+.midfooter>h1{
+   margin-top: 1vmax;
+    font-size: 4vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: salmon;
+}
+.midfooter>p{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#taxt{
+    color: white;
+}
+#taxt:hover{
+    color: salmon;
+}
+
+
+
+
+.rightfooter{
+    height: 15vmax;
+ width: 20%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.rightfooter>h4{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.4vmax;
+text-decoration: underline;
+}
+.rightfooter>a{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.3vmax;
+
+text-decoration: none;
+color: white;
+margin: 0.5vmax;
+
+}
+#id:hover{
+    color: salmon;
+
+}
+
+  
